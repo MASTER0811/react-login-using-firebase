@@ -5,10 +5,14 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Available Scripts
 
 ## Install `node_module`
-`npm install`
+```cmd
+npm install
+```
 
 ## Install `Firebase`
-`npm install firebase`
+```cmd
+npm install firebase
+```
 
 
 In the project directory, you can run:
