@@ -14,6 +14,11 @@ npm install
 npm install firebase
 ```
 
+## Install `TailwindCSS`
+```cmd
+npm install -D tailwindcss postcss autoprefixer
+```
+
 
 In the project directory, you can run:
 
