@@ -30,6 +30,7 @@ function App() {
       console.log(user);
     } catch (error) {
       console.log(error.message);
+      alert(error.message)
     }
   };
 
@@ -43,11 +44,13 @@ function App() {
       console.log(user);
     } catch (error) {
       console.log(error.message);
+      alert(error.message)
     }
   };
 
   const logout = async () => {
     await signOut(auth);
+    alert(`Log Out by: ${user.email}`)
   };
 
   return (
